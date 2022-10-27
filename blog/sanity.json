@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "project": {
+    "name": "gravital-visuals"
+  },
+  "api": {
+    "projectId": "i710rtiq",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "dark-mode",
+    "markdown"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}

@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+blog/node_modules
 
 # testing
 /coverage
@@ -34,5 +35,3 @@ yarn-error.log*
 
 # generated files
 /public/rss/
-
-blog
